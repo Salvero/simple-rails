@@ -2,6 +2,6 @@ class VisitorsController < ApplicationController
 
 	def new
 		@owner = Owner.new
-		render 'visitors/new'
+		render 'visitors/new', :layout => false
 	end
 end
